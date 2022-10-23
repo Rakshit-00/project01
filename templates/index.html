@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bangalore Property Prediction</title>
+</head>
+
+<body style="background-color: rgb(170, 212, 167);">
+
+    <h1> Medical Insurance Charges Prediction </h1>
+    <form method="GET" action="/predict_charges">
+
+        <label>total_sqft</label>
+        <input type = "text" name = "total_sqft">
+        </select>
+
+        <br>
+        <br>
+
+        <label>bath:</label>
+        <input type = "text" name = "bath">
+        </select>
+
+        <br>
+        <br>
+
+        <label>area_type:</label>
+        <input type = "text" name = "area_type">
+        </select>
+
+        <br>
+        <br>
+
+        <label>bhk:</label>
+        <input type = "text" name = "bhk">
+        </select>
+
+        <br>
+        <br>
+
+        <label>location:</label>
+        <input type = "text" name = "location">
+        </select>
+
+        <br>
+        <br>
+
+        <input type = "submit" value="SUBMIT">
+
+        <br>
+
+        <p> Bangalore Property Prediction will be <b> {{ prediction }} /- Rs.</b> Only </p>
+
+
+    </form>
+
+
+</body>
+</html>
